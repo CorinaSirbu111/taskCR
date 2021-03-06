@@ -1,7 +1,6 @@
 package com.taskCR.runnres;
 
 import io.cucumber.junit.Cucumber;
-import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
@@ -15,7 +14,8 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/taskCR/step_definitions",
         dryRun = false,
-        tags = "@wip"
+        tags = "@wip",
+        strict = true
 )
 public class CukesRunner {
 }

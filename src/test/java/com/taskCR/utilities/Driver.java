@@ -2,7 +2,6 @@ package com.taskCR.utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
@@ -29,12 +28,8 @@ public class Driver {
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver(new ChromeOptions().setHeadless(true));
                     break;
-
-
             }
-
         }
-
         return driver;
     }
 
@@ -44,7 +39,5 @@ public class Driver {
             driver = null;
         }
     }
-
-
 }
 

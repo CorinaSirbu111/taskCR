@@ -1,8 +1,8 @@
 
-
+@wip
 Feature: Search a shop
 
-  @wip
+
   Scenario Outline: User is able to find the desire shop
     Given User is on the Shop search results page
     When  User enter a "<location>"

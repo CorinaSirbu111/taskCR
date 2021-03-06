@@ -1,1 +1,0 @@
-file:src/test/resources/features/searchShopResult.feature:14:15:16
